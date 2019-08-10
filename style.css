@@ -10,8 +10,9 @@
   background-image: linear-gradient(to bottom right, #131127 55% , #6a3060);
   background-position: center;
   background-size: cover;
-  height: 130px;
-  padding: 230px;
+  /*height: 130px;*/
+  height: 100%;
+  padding: 225px;
   color: #fff;
 }
 #test{
@@ -23,52 +24,73 @@
 }
 
 
+/*********************************** Logo ***************************************/
+
 #ECHOLOGO{
   position: absolute;
   height: 70px;
   width: 51px;
-  margin-top: -280px;
-  margin-left: 20px;
+  margin-top: -105px;
+  margin-left: -100px;
+
 }
 #ECHO{
   position: absolute;
   height: 30PX;
   width:  93px;
-  margin-top: -260px;
-  margin-left: 36px;
+  margin-top: -85px;
+  margin-left: -84px;
 }
+
+
+/************************************ dicription ***************************************/
 .disc{
   font-family: nunito, sans-serif;
   font-size: 13px;
   width: 40%;
-  margin-top: -100px;
+  margin-top: -30px;
   margin-left: -180px;
   line-height: 35px;
 }
-h1, h2{
+h1{
+  font-family: Bebas Neue;
   font-size: 40px;
-  line-height: 50px;
+  line-height: 45px;
+  letter-spacing: 1px;
+}
+h2{
+  font-family: Bebas Neue;
+  font-size: 30px;
+  letter-spacing: 1,5px;
+  line-height: 45px;
 }
 .discr{
   font-family: nunito, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  margin-top: 10px;
+  font-family: Bebas Neue;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin-top: 0px;
 }
 .slogan{
   color: #28e8a5;
+  font-family: Bebas Neue;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 .rdmr{
-  margin-top: 30px;
+  margin-top: 25px;
 }
 .read_more{
     margin-top: 16px;
-    font-size: 15px;
-    background: #28e8a5;
-    border: #28e8a5 3px solid;
+    font-size: 26px;
+    color: #28e8a5;
+    font-family: Bebas Neue;
+    margin-right: -25px;
+    /*border: #28e8a5 3px solid;
     border-radius: 20px;
     padding: 2px;
-    border-spacing: 15px;
+    border-spacing: 15px;*/
     text-align: left;
     width: 40%;
     float: right;
@@ -112,11 +134,12 @@ h1, h2{
   top: 0;
 }
 .menu a{
-  font-size: 15;
-  color: #fff;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: Bebas Neue;
   text-transform: uppercase;
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 25px;
   transition: 0.4s;
 }
 .show-menu-btn,.hide-menu-btn{
@@ -136,7 +159,7 @@ h1, h2{
 .menu a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover{
-  color: #3498db;
+  color: #28e8a5;
 }
 
 #chk{
@@ -157,18 +180,21 @@ h1, h2{
   text-align: justify;
 }
 .work{
-  padding: 6px ;
-  font-size: 15px;
-  border: #fff 3px solid;
-  border-radius: 20px;
+  padding: 8px ;
+  font-size: 20px;
+  color: #28e8a5;
+  font-family: Bebas Neue;
+ /* border: #fff 3px solid;
+  border-radius: 20px;*/
 }
 .feedback{
     font-size: 15px;
-    background: #28e8a5;
-    border: #28e8a5 3px solid;
+    color: #28e8a5;
+    font-family: Bebas Neue;
+    /*border: #28e8a5 3px solid;
     border-radius: 20px;
     padding: 6px;
-    border-spacing: 15px;
+    border-spacing: 15px;*/
 }
 div #ADN{
   width: 465px;
@@ -179,6 +205,7 @@ div #ADN{
   margin-top: -520px;
 
 }
+
 @media screen and (max-width:800px) {
   .show-menu-btn,.hide-menu-btn{
     display: block;
@@ -222,4 +249,21 @@ body{
 }
 .work{
   padding: 5px;
+}
+.work{
+  padding: 6px ;
+  font-size: 15px;
+  color: #28e8a5;
+  font-family: Bebas Neue;
+ /* border: #fff 3px solid;
+  border-radius: 20px;*/
+}
+.feedback{
+    font-size: 15px;
+    color: #28e8a5;
+    font-family: Bebas Neue;
+    /*border: #28e8a5 3px solid;
+    border-radius: 20px;
+    padding: 6px;
+    border-spacing: 15px;*/
 }
