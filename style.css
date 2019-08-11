@@ -205,6 +205,60 @@ div #ADN{
   margin-top: -520px;
 
 }
+/****************************** boxes *************************/
+h3 {
+  text-align: center;
+  background-color: purple ;
+  background-position: center;
+  /*width:150px;*/
+  margin-right:43%;
+  margin-left: 43%;
+  height: 3.5px;
+  font-size: 24px;
+  font-weight: Blod;
+  margin-top:20px;
+  margin-bottom: 40px;
+}
+/*  Boxes */
+.boxes{
+  text-align: center;
+}
+#feedback{
+  text-align: center;
+  margin: 20px;
+}
+button{
+  border: 0;
+  background-color: #48465D;
+  color:#ffffff;
+  font-weight: blod;
+  width:100px;
+  height: 30px;
+  margin-top: 10px;
+}
+input{
+  margin-top: 6px;
+  width: 400px;
+  height: 40px;
+  border: #48465D solid 2px;
+}
+/***********************iframes*******************/
+
+iframe{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  background-color:#E4E4E4;
+  width:360px;
+  height:320px;
+  border:0;
+  color: #48465D;
+  text-align: center;
+}
+
+/*************************media*******************/
 
 @media screen and (max-width:800px) {
   .show-menu-btn,.hide-menu-btn{
