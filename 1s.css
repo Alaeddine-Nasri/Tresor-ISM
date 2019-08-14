@@ -1,0 +1,28 @@
+header{
+    background-color: #48465D;
+    padding:1px;
+    color:#ffffff;
+    margin: 0;
+}
+h1{
+    text-align:center;
+}
+.container{
+    margin-left: 5px;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+}
+.close{
+    line-height: 1;
+}
+.info{
+    line-height: 0.1;
+}
+a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
