@@ -242,6 +242,13 @@ input{
   height: 40px;
   border: #48465D solid 2px;
 }
+.s1{
+  text-align: center;
+  width: 70%;
+}
+.Containerb{
+  text-align: center;
+}
 /***********************iframes*******************/
 
 iframe{
