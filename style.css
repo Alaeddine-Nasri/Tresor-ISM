@@ -264,6 +264,40 @@ iframe{
   color: #48465D;
   text-align: center;
 }
+/****** Footer**********/
+
+footer{
+  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 30px;
+  margin-bottom: 
+  0;
+  background-color: #48465D;
+  color:#ffffff;
+  padding-bottom: 50px;
+
+}
+.icons{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.icons img{
+  margin-left: 15px;
+  margin-right: 15px;
+  width:30px;
+  height:30px;
+}
+.banner{
+  text-align: center;
+}
+#adr{
+  margin-left: 25%;
+}
+#copy{
+  text-align: right;
+}
 
 /*************************media*******************/
 
